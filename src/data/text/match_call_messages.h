@@ -383,10 +383,10 @@ const u8 gText_MatchCallEliteFour_Drake_Pokemon[] = _("The raw power of DRAGONS!
 const u8 gText_MatchCallEliteFour_Drake_Intro1[] = _("I dedicate myself to the");
 const u8 gText_MatchCallEliteFour_Drake_Intro2[] = _("POKéMON that saved me.");
 
-const u8 gText_MatchCallChampion_Wallace_Strategy[] = _("Dignity and respect.");
-const u8 gText_MatchCallChampion_Wallace_Pokemon[] = _("I prefer POKéMON of grace.");
-const u8 gText_MatchCallChampion_Wallace_Intro1[] = _("I represent beauty as");
-const u8 gText_MatchCallChampion_Wallace_Intro2[] = _("well as intelligence.");
+const u8 gText_MatchCallChampion_Wallace_Strategy[] = _("Pick on the foe's weakness.");
+const u8 gText_MatchCallChampion_Wallace_Pokemon[] = _("The ultimate STEEL type POKéMON");
+const u8 gText_MatchCallChampion_Wallace_Intro1[] = _("When it comes down to it, I'm still the strongest!");
+const u8 gText_MatchCallChampion_Wallace_Intro2[] = _("I'd climb even waterfalls to find a rare stone!");
 
 const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_COUNT] =
 {
