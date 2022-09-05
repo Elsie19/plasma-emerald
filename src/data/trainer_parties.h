@@ -3292,16 +3292,16 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     {
     .iv = 250,
     .lvl = 50,
-    .species = SPECIES_SEALEO,
+    .species = SPECIES_CLOYSTER,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_ENCORE, MOVE_BODY_SLAM, MOVE_HAIL, MOVE_ICE_BALL}
+    .moves = {MOVE_AURORA_BEAM, MOVE_PROTECT, MOVE_FACADE, MOVE_ICY_WIND}
     },
     {
     .iv = 250,
     .lvl = 50,
-    .species = SPECIES_GLALIE,
+    .species = SPECIES_LAPRAS,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_LIGHT_SCREEN, MOVE_CRUNCH, MOVE_ICY_WIND, MOVE_ICE_BEAM}
+    .moves = {MOVE_BODY_SLAM, MOVE_THUNDERBOLT, MOVE_SURF, MOVE_SECRET_POWER}
     },
     {
     .iv = 250,
