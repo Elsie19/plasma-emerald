@@ -1684,7 +1684,7 @@ SootopolisCity_Text_MaxieArchieLeft:
 	.string "return those ORBS…$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
-	.string "WALLACE: Oh?\n"
+	.string "STEVEN: Oh?\n"
 	.string "{PLAYER}{KUN}?\p"
 	.string "Haven't you scaled the SKY PILLAR\n"
 	.string "yet?\p"
@@ -1699,7 +1699,7 @@ SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "have to say for themselves.$"
 
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
-	.string "WALLACE: {PLAYER}{KUN}…\n"
+	.string "STEVEN: {PLAYER}{KUN}…\n"
 	.string "My eyes didn't deceive me.\p"
 	.string "Thanks to your help, SOOTOPOLIS…\n"
 	.string "No, all of HOENN was saved.\p"
