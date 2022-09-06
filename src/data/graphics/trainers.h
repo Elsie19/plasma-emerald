@@ -241,8 +241,8 @@ const u32 gTrainerPalette_OldCouple[] = INCBIN_U32("graphics/trainers/palettes/o
 const u32 gTrainerFrontPic_SisAndBro[] = INCBIN_U32("graphics/trainers/front_pics/sis_and_bro_front_pic.4bpp.lz");
 const u32 gTrainerPalette_SisAndBro[] = INCBIN_U32("graphics/trainers/palettes/sis_and_bro.gbapal.lz");
 
-const u32 gTrainerFrontPic_Steven[] = INCBIN_U32("graphics/trainers/front_pics/steven_front_pic.4bpp.lz");
-const u32 gTrainerPalette_Steven[] = INCBIN_U32("graphics/trainers/palettes/steven.gbapal.lz");
+const u32 gTrainerFrontPic_Steven[] = INCBIN_U32("graphics/trainers/front_pics/red_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Steven[] = INCBIN_U32("graphics/trainers/palettes/red.gbapal.lz");
 
 const u32 gTrainerFrontPic_SalonMaidenAnabel[] = INCBIN_U32("graphics/trainers/front_pics/salon_maiden_anabel_front_pic.4bpp.lz");
 const u32 gTrainerPalette_SalonMaidenAnabel[] = INCBIN_U32("graphics/trainers/palettes/salon_maiden_anabel.gbapal.lz");
