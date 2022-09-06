@@ -11598,45 +11598,45 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Darius[] = {
 static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     {
     .iv = 255,
-    .lvl = 77,
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_SPIKES, MOVE_STEEL_WING}
+    .lvl = 88,
+    .species = SPECIES_PIKACHU,
+    .heldItem = ITEM_LIGHT_BALL,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_IRON_TALE, MOVE_QUICK_ATTACK, MOVE_THUNDERBOLT}
     },
     {
     .iv = 255,
-    .lvl = 75,
-    .species = SPECIES_CLAYDOL,
+    .lvl = 80,
+    .species = SPECIES_LAPRAS,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_ANCIENT_POWER, MOVE_EARTHQUAKE}
+    .moves = {MOVE_BODY_SLAM, MOVE_SURF, MOVE_BLIZZARD, MOVE_PSYCHIC}
     },
     {
     .iv = 255,
-    .lvl = 76,
-    .species = SPECIES_AGGRON,
+    .lvl = 82,
+    .species = SPECIES_SNORLAX,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_THUNDER, MOVE_EARTHQUAKE, MOVE_SOLAR_BEAM, MOVE_DRAGON_CLAW}
+    .moves = {MOVE_SHADOW_BALL, MOVE_CRUNCH, MOVE_REST, MOVE_SNORE}
     },
     {
     .iv = 255,
-    .lvl = 76,
-    .species = SPECIES_CRADILY,
+    .lvl = 84,
+    .species = SPECIES_VENUSAUR,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_INGRAIN, MOVE_CONFUSE_RAY}
+    .moves = {MOVE_FRENZY_PLANT, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_SLEEP_POWDER}
     },
     {
     .iv = 255,
-    .lvl = 76,
-    .species = SPECIES_ARMALDO,
+    .lvl = 84,
+    .species = SPECIES_CHARIZARD,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_WATER_PULSE, MOVE_ANCIENT_POWER, MOVE_AERIAL_ACE, MOVE_SLASH}
+    .moves = {MOVE_BLAST_BURN, MOVE_FLAMETHROWER, MOVE_SLASH, MOVE_WING_ATTACK}
     },
     {
     .iv = 255,
-    .lvl = 78,
-    .species = SPECIES_METAGROSS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_METEOR_MASH, MOVE_SHADOW_BALL}
+    .lvl = 84,
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYDRO_CANNON, MOVE_BLIZZARD, MOVE_FLASH_SURF, MOVE_RAIN_DANCE}
     }
 };
 
