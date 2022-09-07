@@ -547,7 +547,7 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 	.string "Well, anyway, hang in there!$"
 
 LilycoveCity_Text_MovedLootIntoHideoutToday:
-	.string "Fufufu…\p"
+	.string "Hehehe…\p"
 	.string "We moved more loot into our secret\n"
 	.string "HIDEOUT today…\p"
 	.string "Wh-who are you?!\n"

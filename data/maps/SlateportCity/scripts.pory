@@ -1204,13 +1204,13 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery:
 	.string "that's said to have been long extinct.$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
-	.string "Fufufu…\n"
+	.string "Hehehe…\n"
 	.string "CAPT. STERN, I presume.\p"
 	.string "We of TEAM AQUA will assume\n"
 	.string "control of your submarine!\p"
 	.string "Your objections are meaningless!\n"
 	.string "We expect your total cooperation!\p"
-	.string "Fufufu…\n"
+	.string "Hehehe…\n"
 	.string "Just watch and learn what TEAM\l"
 	.string "AQUA has planned!$"
 

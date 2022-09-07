@@ -33,7 +33,7 @@ MagmaHideout_2F_2R_Text_Grunt15PostBattle:
 	.string "We dug up something beyond belief!\n"
 	.string "And, we got the BLUE ORB!\p"
 	.string "All that's left is for our leader to…\n"
-	.string "Fufufu… Fwahahaha!$"
+	.string "Hehehe… Fwahahaha!$"
 
 MagmaHideout_2F_2R_Text_Grunt6Intro:
 	.string "I can't stand heat. Maybe I should've\n"

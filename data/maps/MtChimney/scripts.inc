@@ -111,15 +111,15 @@ MtChimney_EventScript_LavaCookieLady::
 	msgbox MtChimney_Text_ThankYouDear, MSGBOX_DEFAULT
 	checkitemspace ITEM_LAVA_COOKIE
 	call_if_eq VAR_RESULT, TRUE, MtChimney_EventScript_RemoveMoney
-	hidemoneybox
 	giveitem ITEM_LAVA_COOKIE
 	goto_if_eq VAR_RESULT, FALSE, MtChimney_EventScript_BagIsFull
+	hidemoneybox
 	release
 	end
 
 MtChimney_EventScript_BagIsFull::
 	msgbox gText_TooBadBagIsFull, MSGBOX_DEFAULT
-	@hidemoneybox
+	hidemoneybox
 	release
 	end
 
@@ -540,7 +540,7 @@ MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "activity will instantly intensify…\p"
 	.string "Its energy will grow deep inside\n"
 	.string "the crater and…\l"
-	.string "Fufufu…$"
+	.string "Hehehe…$"
 
 MtChimney_Text_MaxieIntro:
 	.string "MAXIE: Hm?\n"
@@ -579,9 +579,9 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 	.string "I will back off this time.\p"
 	.string "But don't think that this is the last\n"
 	.string "you've seen of TEAM MAGMA.\p"
-	.string "Fufufu…\p"
+	.string "Hehehe…\p"
 	.string "Even without the METEORITE, if we\n"
-	.string "obtain that ORB… Fufufu…$"
+	.string "obtain that ORB… Hehehe…$"
 
 MtChimney_Text_TabithaIntro:
 	.string "Hehehe!\p"

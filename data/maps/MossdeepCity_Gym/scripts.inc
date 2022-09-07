@@ -407,7 +407,7 @@ MossdeepCity_Gym_Text_VirgilPostBattle:
 	.string "than them…$"
 
 MossdeepCity_Gym_Text_BlakeIntro:
-	.string "Fufufufu… Watch me levitate a POKé\n"
+	.string "Hehehehe… Watch me levitate a POKé\n"
 	.string "BALL telekinetically!\p"
 	.string "Wrooooooooaaaar!\n"
 	.string "… … … … … … …\p"
@@ -547,7 +547,7 @@ MossdeepCity_Gym_Text_NicholasPostBattle:
 
 MossdeepCity_Gym_Text_TateAndLizaIntro:
 	.string "TATE: Hehehe… Were you surprised?\p"
-	.string "LIZA: Fufufu… Were you surprised?\p"
+	.string "LIZA: Hehehe… Were you surprised?\p"
 	.string "TATE: That there are two GYM LEADERS?\n"
 	.string "LIZA: That there are two GYM LEADERS?\p"
 	.string "TATE: We're twins!\n"

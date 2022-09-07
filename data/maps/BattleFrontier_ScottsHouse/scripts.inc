@@ -283,7 +283,7 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
 	.string "Well, guess what?\p"
 	.string "You may run into wild POKéMON in\n"
 	.string "the BATTLE FRONTIER somewhere…\l"
-	.string "Fufufu!$"
+	.string "Hehehe!$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
 	.string "SCOTT: Are you enjoying things in\n"

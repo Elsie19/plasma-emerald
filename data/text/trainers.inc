@@ -1837,7 +1837,7 @@ Route114_Text_NancyPostBattle:
 	.string "I'm getting drowsy…$"
 
 Route114_Text_SteveIntro:
-	.string "Ufufufufufu…\n"
+	.string "Ehehehehehe…\n"
 	.string "Want to battle against my POKéMON?$"
 
 Route114_Text_SteveDefeat:
@@ -1846,7 +1846,7 @@ Route114_Text_SteveDefeat:
 Route114_Text_StevePostBattle:
 	.string "A big body that's all lumpy and hard,\n"
 	.string "enormous horns, and vicious fangs…\p"
-	.string "Ufufufufu…\n"
+	.string "Ehehehehe…\n"
 	.string "I wish I had a POKéMON like that…$"
 
 Route114_Text_SteveRegister:
@@ -1854,7 +1854,7 @@ Route114_Text_SteveRegister:
 	.string "I'll make it so you can't forget!$"
 
 Route114_Text_SteveRematchIntro:
-	.string "Ufufufufufu…\n"
+	.string "Ehehehehehe…\n"
 	.string "Come on, battle my POKéMON…$"
 
 Route114_Text_SteveRematchDefeat:
@@ -1862,7 +1862,7 @@ Route114_Text_SteveRematchDefeat:
 	.string "POKéMON…$"
 
 Route114_Text_StevePostRematch:
-	.string "Ufufufufufu…\p"
+	.string "Ehehehehehe…\n"
 	.string "When I see POKéMON battling, I get all\n"
 	.string "shivery and shaky…$"
 
@@ -2703,7 +2703,7 @@ Route119_Text_BrentDefeat:
 
 Route119_Text_BrentPostBattle:
 	.string "What's so good about mimicry?\p"
-	.string "Fufufu…\n"
+	.string "Hehehe…\n"
 	.string "You'll never understand…$"
 
 Route119_Text_DonaldIntro:
@@ -3660,7 +3660,7 @@ Route124_Text_GracePostBattle:
 	.string "made you this strong.$"
 
 Route124_Text_ChadIntro:
-	.string "Fufufufu… I dive deep underwater\n"
+	.string "Hehehehe… I dive deep underwater\n"
 	.string "to go deep under cover.\l"
 	.string "Plumbing the depths is where I excel!$"
 
@@ -3944,7 +3944,7 @@ Route126_Text_DeanPostBattle:
 	.string "SOOTOPOLIS. Where could it be?$"
 
 Route126_Text_NikkiIntro:
-	.string "Ufufufufu!\n"
+	.string "Ehehehehe!\n"
 	.string "I'm a mermaid!$"
 
 Route126_Text_NikkiDefeat:
