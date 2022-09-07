@@ -23,7 +23,7 @@ AlteringCave_EventScript_Deoxys::
 	setvar VAR_0x8007, 4   @ shake delay
 	special ShakeCamera
 	waitstate
-	setwildbattle SPECIES_DEOXYS, 1
+	setwildbattle SPECIES_DEOXYS, 80
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	special BattleSetup_StartLegendaryBattle
 	waitstate
