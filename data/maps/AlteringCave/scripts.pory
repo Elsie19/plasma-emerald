@@ -7,4 +7,44 @@ AlteringCave_OnTransition:
 	setflag FLAG_LANDMARK_ALTERING_CAVE
 	end
 
+AlteringCave_EventScript_Deoxys::
+	lockall
+	playmoncry SPECIES_DEOXYS, CRY_MODE_ENCOUNTER
+	delay 70
+	waitmoncry
+	playmoncry SPECIES_DEOXYS, CRY_MODE_ENCOUNTER
+	delay 70
+	waitmoncry
+	playmoncry SPECIES_DEOXYS, CRY_MODE_ENCOUNTER
+	delay 70
+	waitmoncry
+	setvar VAR_0x8004, 15  @ vertical pan
+	setvar VAR_0x8005, 15  @ horizontal pan
+	setvar VAR_0x8006, 30  @ num shakes
+	setvar VAR_0x8007, 4   @ shake delay
+	special ShakeCamera
+	waitstate
+	setwildbattle SPECIES_DEOXYS, 80
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	special BattleSetup_StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	setvar VAR_TEMP_1, 0
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AlteringCave_EventScript_DefeatedDeoxys
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AlteringCave_EventScript_RanFromDeoxys
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AlteringCave_EventScript_RanFromDeoxys
+	setflag FLAG_DEFEATED_DEOXYS
+	releaseall
+	end
+
+AlteringCave_EventScript_DefeatedDeoxys::
+	setflag FLAG_DEFEATED_DEOXYS
+	goto Common_EventScript_RemoveStaticPokemon
+	end
+
+AlteringCave_EventScript_RanFromDeoxys::
+	setvar VAR_0x8004, SPECIES_DEOXYS
+	goto Common_EventScript_LegendaryFlewAway
+	end
 `
