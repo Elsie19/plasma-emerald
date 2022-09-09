@@ -344,7 +344,7 @@ DewfordTown_Gym_Text_LauraPostBattle:
 	.string "see BRAWLY's face…$"
 
 DewfordTown_Gym_Text_LilithIntro:
-	.string "Ufufu…\n"
+	.string "Ehehe…\n"
 	.string "Are you stumbling around in the dark?$"
 
 DewfordTown_Gym_Text_LilithDefeat:
