@@ -138,6 +138,7 @@ static const u16 sShopInventory_TwoBadges[] = {
 static const u16 sShopInventory_ThreeBadges[] = {
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
+    ITEM_NEST_BALL,
     ITEM_POTION,
     ITEM_SUPER_POTION,
     ITEM_ANTIDOTE,
