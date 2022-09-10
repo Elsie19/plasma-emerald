@@ -1137,8 +1137,8 @@ RustboroCity_Text_PleaseComeWithMe:
 
 RustboroCity_Text_MayHiLetsRegister:
 	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "You had a MATCH CALL feature put\n"
-	.string "on your POKéNAV!\p"
+	.string "I heard you had a MATCH CALL feature\n"
+	.string "put on your POKéNAV!\p"
 	.string "Let's register each other so we can\n"
 	.string "contact one another anytime!\p"
 	.string "… … … … … …$"
@@ -1184,8 +1184,8 @@ RustboroCity_Text_MayMrBrineyHint:
 
 RustboroCity_Text_BrendanHiLetsRegister:
 	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
-	.string "You had a MATCH CALL feature put\n"
-	.string "on your POKéNAV! Cool!\p"
+	.string "I heard you had a MATCH CALL feature\n"
+	.string "put on your POKéNAV! Cool!\p"
 	.string "Let's register each other so we can\n"
 	.string "get in touch anytime!\p"
 	.string "… … … … … …$"
