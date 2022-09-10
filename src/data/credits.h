@@ -63,7 +63,7 @@ enum
 #define ENTRIES_PER_PAGE 5
 
 static const u8 sCreditsText_EmptyString[]                    = _("");
-static const u8 sCreditsText_PkmnEmeraldVersion[]             = _("POKéMON EMERALD VERSION");
+static const u8 sCreditsText_PkmnEmeraldVersion[]             = _("POKéMON PLASMA EMERALD VERSION");
 static const u8 sCreditsText_Credits[]                        = _("Credits");
 static const u8 sCreditsText_ExecutiveDirector[]              = _("Executive Director");
 static const u8 sCreditsText_Director[]                       = _("Director");
@@ -175,7 +175,7 @@ static const u8 sCreditsText_KyokoWatanabe[]                  = _("Kyoko Watanab
 static const u8 sCreditsText_TakaoNakano[]                    = _("Takao Nakano");
 static const u8 sCreditsText_HiroyukiJinnai[]                 = _("Hiroyuki Jinnai");
 static const u8 sCreditsText_HiroakiTsuru[]                   = _("Hiroaki Tsuru");
-static const u8 sCreditsText_TsunekazIshihara[]               = _("Tsunekaz Ishihara");
+static const u8 sCreditsText_TsunekazIshihara[]               = _("Tsunekazu Ishihara");
 static const u8 sCreditsText_SatoruIwata[]                    = _("Satoru Iwata");
 static const u8 sCreditsText_KazuyaSuyama[]                   = _("Kazuya Suyama");
 static const u8 sCreditsText_SatoshiMitsuhara[]               = _("Satoshi Mitsuhara");
