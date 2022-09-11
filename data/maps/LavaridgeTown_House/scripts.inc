@@ -15,6 +15,19 @@ LavaridgeTown_House_EventScript_Zigzagoon::
 	release
 	end
 
+LavaridgeTown_House_EventScript_ExpShare::
+	goto_if_set FLAG_RECEIVED_EXP_SHARE, LavaridgeTown_House_EventScript_FigureOutExpShare
+	.string "Hey! I found this machine out while\n"
+	.string "exploring, and I can make heads or tails\p"
+	.string "of it. Here, you can have it!$"
+	giveitem ITEM_EXP_SHARE
+	setflag FLAG_RECEIVED_EXP_SHARE
+	end
+
+LavaridgeTown_House_EventScript_FigureOutExpShare::
+	.string "Have you figured it out yet?$"
+	end
+
 LavaridgeTown_House_Text_WifeWarmingEggInHotSprings:
 	.string "My wife's warming an EGG in the hot\n"
 	.string "springs. This is what she told me.\p"
