@@ -51,3 +51,10 @@ PacifidlogTown_Text_TownSign:
 	.string "PACIFIDLOG TOWN\p"
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
+
+PacifidlogTown_EventScript_TeamSky::
+	.string "Oh hey, I'm Mikey! I'm trying\n"
+	.string "to create my own team! Our goal\p"
+	.string "is to use Rayquaza to expand the\n"
+	.string "sky! Whatever that means. Now all\p"
+	.string "that's left to do is find Rayquaza.$"
