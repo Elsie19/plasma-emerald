@@ -1032,7 +1032,7 @@ void DrawHeaderBox(void)
     u8 textY;
     u8 *dst;
     bool8 handleFlash = FALSE;
-    
+
     if (GetFlashLevel() > 0 || InBattlePyramid_())
         handleFlash = TRUE;
 
@@ -1084,7 +1084,7 @@ void HideHeaderBox(void)
 static void ShowItemIconSprite(u16 item, bool8 firstTime, bool8 flash)
 {
     s16 x, y;
-    u8 iconSpriteId;   
+    u8 iconSpriteId;
     u8 spriteId2 = MAX_SPRITES;
 
     if (flash)

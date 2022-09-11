@@ -204,7 +204,7 @@ void NewGameInitData(void)
     ResetTrainerHillResults();
     ResetContestLinkResults();
     gSaveBlock2Ptr->expShare = 0;
-    
+
     memset(&gSaveBlock2Ptr->itemFlags, 0, sizeof(gSaveBlock2Ptr->itemFlags));
 }
 
