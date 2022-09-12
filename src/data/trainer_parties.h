@@ -8902,6 +8902,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveMudkip[] 
     {
     .iv = 150,
     .lvl = 32,
+    .species = SPECIES_HITMONCHAN,
+    },
+    {
+    .iv = 150,
+    .lvl = 32,
     .species = SPECIES_PELIPPER,
     },
     {
@@ -8926,6 +8931,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTreecko[]
     .iv = 150,
     .lvl = 32,
     .species = SPECIES_GRUMPIG,
+    },
+    {
+    .iv = 150,
+    .lvl = 32,
+    .species = SPECIES_HITMONCHAN,
     },
     {
     .iv = 150,
@@ -8958,6 +8968,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveTorchic[]
     {
     .iv = 150,
     .lvl = 32,
+    .species = SPECIES_HITMONCHAN,
+    },
+    {
+    .iv = 150,
+    .lvl = 32,
     .species = SPECIES_SLUGMA,
     },
     {
@@ -8982,6 +8997,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveMudkip[] = {
     .iv = 150,
     .lvl = 32,
     .species = SPECIES_GRUMPIG,
+    },
+    {
+    .iv = 150,
+    .lvl = 32,
+    .species = SPECIES_HITMONCHAN,
     },
     {
     .iv = 150,
@@ -9014,6 +9034,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTreecko[] = {
     {
     .iv = 150,
     .lvl = 32,
+    .species = SPECIES_HITMONCHAN,
+    },
+    {
+    .iv = 150,
+    .lvl = 32,
     .species = SPECIES_LUDICOLO,
     },
     {
@@ -9038,6 +9063,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTorchic[] = {
     .iv = 150,
     .lvl = 32,
     .species = SPECIES_GRUMPIG,
+    },
+    {
+    .iv = 150,
+    .lvl = 32,
+    .species = SPECIES_HITMONCHAN,
     },
     {
     .iv = 150,
