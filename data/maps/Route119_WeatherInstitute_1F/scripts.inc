@@ -96,16 +96,15 @@ SCRIPT_SelfTrade_DeclineTrade::
   end
 
 SCRIPT_SelfTrade_Text_IllTradeIfYouWant:
-  .string "I will help you to\n"
-  .string "trade a pokemon\p"
+  .string "I will help you to trade a POKéMON\n"
   .string "with yourself!$"
 
 SCRIPT_SelfTrade_Text_ComeBack:
   .string "Come back anytime.$"
 
 SCRIPT_SelfTrade_Text_YouDontWantToThatsOkay:
-  .string "You dont want to?\n"
-  .string "Okay come back anytime$"
+  .string "You dont want to? Okay, come back\n"
+  .string "anytime.$"
 
 Route119_WeatherInstitute_1F_Text_Grunt1Intro:
 	.string "The BOSS got interested in\n"
