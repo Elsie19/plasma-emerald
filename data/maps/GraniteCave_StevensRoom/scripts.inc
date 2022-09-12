@@ -115,6 +115,6 @@ GraniteCave_StevensRoom_Text_RegisteredSteven:
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
 	.string "Now, I've got to hurry along.$"
 
-GraniteCave_StevensRoom_Text_OhBagIsFull:
+GraniteCave_StevensRoom_Text_OhBagIsFull::
 	.string "Oh, your BAG is full…\n"
 	.string "That's too bad, then.$"
