@@ -195,16 +195,16 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "set for the POKéMON LEAGUE challenge!$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro:
-	.string "Now that I see you closely, there\n"
-	.string "is something about you…\p"
-	.string "I think I sense that in you.\p"
-	.string "What happened at SPEAR PILLAR, and what\n"
-	.string "you did, I will likely learn through our\l"
-	.string "upcoming battle. Now, show me. Show me\l"
-	.string "the power you wield with your POKéMON.\l"
-	.string "And I, in turn, shall present you with\l"
-	.string "a performance of illusions in water\l"
-	.string "by me and my POKéMON!$"
+	.string "Now that I see you closely, there is\n"
+	.string "something about you… I think I sense\l"
+	.string "that in you. What happened at SPEAR\l"
+	.string "PILLAR, and what you did, I will likely\l"
+	.string "learn through our upcoming battle. Now,\l"
+	.string "show me. Show me the power you wield\l"
+	.string "with your POKéMON. And I, in turn, shall\l"
+	.string "present you with a performance of\l"
+	.string "illusions in water by me and my\l"
+	.string "POKéMON!$"
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's about 50 bytes too long for
 @ the gDisplayedStringBattle buffer that it's put into, and it stomps all over the gBattleTextBuffs
