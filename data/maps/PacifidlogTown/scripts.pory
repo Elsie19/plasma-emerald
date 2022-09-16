@@ -28,6 +28,10 @@ PacifidlogTown_EventScript_TownSign::
 	msgbox PacifidlogTown_Text_TownSign, MSGBOX_SIGN
 	end
 
+PacifidlogTown_EventScript_TeamSky::
+	msgbox PacifidlogTown_EventScript_TeamSkyText, MSGBOX_NPC
+	end
+
 PacifidlogTown_Text_FastRunningCurrent:
 	.string "The sea between PACIFIDLOG and\n"
 	.string "SLATEPORT has a fast-running tide.\p"
@@ -53,7 +57,7 @@ PacifidlogTown_Text_TownSign:
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
 
-PacifidlogTown_EventScript_TeamSky::
+PacifidlogTown_EventScript_TeamSkyText::
 	.string "Oh hey, I'm Mikey! I'm trying\n"
 	.string "to create my own team! Our goal\p"
 	.string "is to use Rayquaza to expand the\n"
