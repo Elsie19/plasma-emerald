@@ -57,8 +57,7 @@ PacifidlogTown_Text_TownSign:
 	.string "the waters.”$"
 
 PacifidlogTown_EventScript_TeamSkyText::
-	.string "Oh hey, I'm Mikey! I'm trying\n"
-	.string "to create my own team! Our goal\p"
-	.string "is to use Rayquaza to expand the\n"
-	.string "sky! Whatever that means. Now all\p"
-	.string "that's left to do is find Rayquaza.$"
+	.string "Oh hey, I'm Mikey! I'm trying to create\n"
+	.string "my own team! Our goal is to use RAYQUAZA\p"
+	.string "expand the sky! Whatever that means.\n"
+	.string "Now all that's left to do is find it.$"
