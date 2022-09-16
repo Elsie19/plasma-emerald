@@ -201,9 +201,9 @@ SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "I think I sense that in you.\p"
 	.string "What happened at SPEAR PILLAR, and what\n"
 	.string "you did, I will likely learn through our\l"
-	.string "upcoming battle. Now, show me. Show me\p"
-	.string "the power you wield with your POKéMON.\n"
-	.string "And I, in turn, shall present you with\p"
+	.string "upcoming battle. Now, show me. Show me\l"
+	.string "the power you wield with your POKéMON.\l"
+	.string "And I, in turn, shall present you with\l"
 	.string "a performance of illusions in water\l"
 	.string "by me and my POKéMON!$"
 
