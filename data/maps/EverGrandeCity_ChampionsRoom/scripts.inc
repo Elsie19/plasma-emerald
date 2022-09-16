@@ -244,7 +244,7 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "Now!\p"
 	.string "Who can show the might of\n"
 	.string "their POKéMON in HOENN?\p"
-	.string "BRING IT ON! SHOW ME WHAT\l"
+	.string "BRING IT ON! SHOW ME WHAT\n"
 	.string "YOUR MADE OF!!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
