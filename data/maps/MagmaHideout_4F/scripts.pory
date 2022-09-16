@@ -149,7 +149,7 @@ MagmaHideout_4F_Text_Grunt11PostBattle:
 	.string "I wonder if GROUDON even has a tail?$"
 
 MagmaHideout_4F_Text_Grunt12Intro:
-	.string "Fuhahaha!\n"
+	.string "Huhahaha!\n"
 	.string "Soon! Very soon!\l"
 	.string "Our grand objective will be achieved!$"
 

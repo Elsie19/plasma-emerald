@@ -38,7 +38,7 @@ MagmaHideout_1F_Text_Grunt2Intro:
 	.string "And in the course of digging, we came\n"
 	.string "across something that blew our minds!\p"
 	.string "What did we find?\p"
-	.string "Fuhahaha!\n"
+	.string "Huhahaha!\n"
 	.string "I'll tell you if you beat me!$"
 
 MagmaHideout_1F_Text_Grunt2Defeat:
