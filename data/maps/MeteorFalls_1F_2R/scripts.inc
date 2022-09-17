@@ -68,7 +68,9 @@ MeteorFalls_1F_2R_Text_NicolasIntro:
 
 MeteorFalls_1F_2R_Text_NicolasDefeat:
 	.string "Urgh!\n"
-	.string "I didn't expect you to be so strong!$"
+	.string "I didn't expect you to be so strong!\p"
+	.string "Oh also! There's this weird kid further in\n"
+	.string "The cave. You should check it out.$"
 
 MeteorFalls_1F_2R_Text_NicolasPostBattle:
 	.string "The road ahead remains long and harsh.\p"
