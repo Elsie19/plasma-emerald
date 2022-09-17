@@ -31,7 +31,7 @@ AlteringCave_EventScript_Deoxys::
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	setvar VAR_TEMP_1, 0
 	specialvar VAR_RESULT, GetBattleOutcome
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AlteringCave_EventScript_DefeatedDeoxys
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, AlteringCave_EventScript_RanFromDeoxys
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, AlteringCave_EventScript_RanFromDeoxys
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, AlteringCave_EventScript_RanFromDeoxys
 	setflag FLAG_DEFEATED_DEOXYS
