@@ -203,6 +203,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex::
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2, MSGBOX_DEFAULT
+	giveitem ITEM_OLD_SEA_MAP
 	closemessage
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
@@ -867,7 +868,10 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "There is no end to the road\n"
 	.string "that is POKéMON.\p"
 	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!$"
+	.string "that's waiting for you!\p"
+	.string "And speaking of, I have this for you.\n"
+	.string "It's an OLD SEA MAP. One of my\p"
+	.string "colleagues in the field gave it to me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "MAY: I think I'll take a short break\n"
