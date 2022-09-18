@@ -4204,18 +4204,16 @@ Route128_Text_KatelynPostRematch:
 	.string "You should give serious thought to\n"
 	.string "challenges on VICTORY ROAD.$"
 
-Route128_Text_AlexaIntro:
-	.string "We've been working so hard to mount\n"
-	.string "a POKéMON LEAGUE challenge…\p"
-	.string "We can't afford to lose now!$"
+Route128_Text_CogitaIntro:
+	.string "Oh, hello {PLAYER}.$"
 
-Route128_Text_AlexaDefeat:
+Route128_Text_CogitaDefeat:
 	.string "Oh!\n"
-	.string "How could this happen?!$"
+	.string "How interesting.$"
 
-Route128_Text_AlexaPostBattle:
-	.string "After all I've done to get here,\n"
-	.string "I won't give up after one setback.$"
+Route128_Text_CogitaPostBattle:
+	.string "It was nice battling\n"
+	.string "with you {PLAYER}.$"
 
 Route128_Text_RubenIntro:
 	.string "There is no stronger TRAINER than I!$"

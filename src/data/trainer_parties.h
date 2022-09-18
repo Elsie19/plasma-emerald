@@ -9130,16 +9130,16 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Roger[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Alexa[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_Cogita[] = {
     {
     .iv = 100,
-    .lvl = 34,
-    .species = SPECIES_GLOOM,
+    .lvl = 40,
+    .species = SPECIES_AZUMARILL,
     },
     {
     .iv = 100,
-    .lvl = 34,
-    .species = SPECIES_AZUMARILL,
+    .lvl = 40,
+    .species = SPECIES_MEGANIUM,
     }
 };
 

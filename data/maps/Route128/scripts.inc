@@ -220,9 +220,9 @@ Route128_EventScript_RematchKatelyn::
 	msgbox Route128_Text_KatelynPostRematch, MSGBOX_AUTOCLOSE
 	end
 
-Route128_EventScript_Alexa::
-	trainerbattle_single TRAINER_ALEXA, Route128_Text_AlexaIntro, Route128_Text_AlexaDefeat
-	msgbox Route128_Text_AlexaPostBattle, MSGBOX_AUTOCLOSE
+Route128_EventScript_Cogita::
+	trainerbattle_single TRAINER_COGITA, Route128_Text_CogitaIntro, Route128_Text_CogitaDefeat
+	msgbox Route128_Text_CogitaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route128_EventScript_Ruben::

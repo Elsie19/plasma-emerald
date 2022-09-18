@@ -8041,16 +8041,16 @@ const struct Trainer gTrainers[] = {
         .party = NO_ITEM_DEFAULT_MOVES(sParty_Roger),
     },
 
-    [TRAINER_ALEXA] =
+    [TRAINER_COGITA] =
     {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_COOL,
-        .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        .trainerName = _("ALEXA"),
+        .trainerPic = TRAINER_PIC_BEAUTY,
+        .trainerName = _("COGITA"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Alexa),
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_Cogita),
     },
 
     [TRAINER_RUBEN] =
