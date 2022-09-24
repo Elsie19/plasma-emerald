@@ -30,13 +30,15 @@ MeteorFalls_StevensCave_EventScript_Defeated::
 	end
 
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
-	.string "… … …\n"
+	.string "… … … … … …\p"
+	.string "… … … … …\p"
+	.string "… … … …\p"
 	.string "…!$"
 
 MeteorFalls_StevensCave_Text_StevenDefeat:
-	.string "…?$"
+	.string "… … …?$"
 
 MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
-	.string "… … … … … …$"
+	.string "… … …$"
 
 `

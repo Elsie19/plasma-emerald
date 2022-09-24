@@ -43,9 +43,11 @@ Debug_CheatStart::
 	end
 
 Debug_Script_1::
+	trainerbattle_single TRAINER_JUAN_1, SootopolisCity_Gym_1F_Text_JuanIntro, SootopolisCity_Gym_1F_Text_JuanDefeat, SootopolisCity_Gym_1F_EventScript_JuanDefeated, NO_MUSIC
 	end
 
 Debug_Script_2::
+	trainerbattle_single TRAINER_JUAN_5, SootopolisCity_Gym_1F_Text_JuanIntro, SootopolisCity_Gym_1F_Text_JuanDefeat, SootopolisCity_Gym_1F_EventScript_JuanDefeated, NO_MUSIC
 	end
 
 Debug_Script_3::
