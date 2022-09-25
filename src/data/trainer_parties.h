@@ -12516,6 +12516,51 @@ static const struct TrainerMonItemCustomMoves sParty_Leaf[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Blue[] = {
+    {
+    .iv = 255,
+    .lvl = 76,
+    .species = SPECIES_PIDGEOT,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_AERIAL_ACE, MOVE_FEATHER_DANCE, MOVE_SAND_ATTACK, MOVE_MIRROR_MOVE}
+    },
+    {
+    .iv = 255,
+    .lvl = 74,
+    .species = SPECIES_ALAKAZAM,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_RECOVER, MOVE_PSYCHIC, MOVE_FUTURE_SIGHT, MOVE_RECOVER}
+    },
+    {
+    .iv = 255,
+    .lvl = 79,
+    .species = SPECIES_RHYDON,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_TAKE_DOWN, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB, MOVE_SCARY_FACE}
+    },
+    {
+    .iv = 255,
+    .lvl = 79,
+    .species = SPECIES_EXEGGUTOR,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_EGG_BOMB, MOVE_SLEEP_POWDER, MOVE_LIGHT_SCREEN}
+    },
+    {
+    .iv = 255,
+    .lvl = 81,
+    .species = SPECIES_GYARADOS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_DRAGON_RAGE, MOVE_CRUNCH, MOVE_THRASH}
+    },
+    {
+    .iv = 255,
+    .lvl = 83,
+    .species = SPECIES_CHARIZARD,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FIRE_BLAST, MOVE_AERIAL_ACE, MOVE_SLASH, MOVE_FIRE_SPIN}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLinkPlaceholder[] = {
     {
     .iv = 0,
