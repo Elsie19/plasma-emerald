@@ -108,6 +108,7 @@ static void Task_WhiteBarsFade(u8);
 static void Task_GridSquares(u8);
 static void Task_AngledWipes(u8);
 static void Task_Red(u8);
+static void Task_Leaf(u8);
 static void Task_Sidney(u8);
 static void Task_Phoebe(u8);
 static void Task_Glacia(u8);
@@ -360,6 +361,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_GRID_SQUARES] = Task_GridSquares,
     [B_TRANSITION_ANGLED_WIPES] = Task_AngledWipes,
     [B_TRANSITION_RED] = Task_Red,
+    [B_TRANSITION_LEAF] = Task_Leaf,
     [B_TRANSITION_SIDNEY] = Task_Sidney,
     [B_TRANSITION_PHOEBE] = Task_Phoebe,
     [B_TRANSITION_GLACIA] = Task_Glacia,
@@ -546,6 +548,7 @@ static const TransitionStateFunc sMugshot_Funcs[] =
 static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
 {
     [MUGSHOT_RED]      = TRAINER_PIC_RED,
+    [MUGSHOT_LEAF]     = TRAINER_PIC_LEAF,
     [MUGSHOT_SIDNEY]   = TRAINER_PIC_ELITE_FOUR_SIDNEY,
     [MUGSHOT_PHOEBE]   = TRAINER_PIC_ELITE_FOUR_PHOEBE,
     [MUGSHOT_GLACIA]   = TRAINER_PIC_ELITE_FOUR_GLACIA,
@@ -555,6 +558,7 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
 static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
 {
     [MUGSHOT_RED] =      {0x200, 0x200},
+    [MUGSHOT_LEAF] =     {0x200, 0x200},
     [MUGSHOT_SIDNEY] =   {0x200, 0x200},
     [MUGSHOT_PHOEBE] =   {0x200, 0x200},
     [MUGSHOT_GLACIA] =   {0x1B0, 0x1B0},
@@ -564,6 +568,7 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
 static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
 {
     [MUGSHOT_RED]    =   { 0,  0},
+    [MUGSHOT_LEAF]   =   { 0,  0},
     [MUGSHOT_SIDNEY] =   { 0,  0},
     [MUGSHOT_PHOEBE] =   { 0,  0},
     [MUGSHOT_GLACIA] =   {-4,  4},
@@ -892,6 +897,7 @@ static const u16 sFieldEffectPal_Pokeball[] = INCBIN_U16("graphics/field_effects
 const struct SpritePalette gSpritePalette_Pokeball = {sFieldEffectPal_Pokeball, FLDEFF_PAL_TAG_POKEBALL_TRAIL};
 
 static const u16 sMugshotPal_Red[] = INCBIN_U16("graphics/battle_transitions/steven_bg.gbapal");
+static const u16 sMugshotPal_Leaf[] = INCBIN_U16("graphics/battle_transitions/steven_bg.gbapal");
 static const u16 sMugshotPal_Sidney[] = INCBIN_U16("graphics/battle_transitions/sidney_bg.gbapal");
 static const u16 sMugshotPal_Phoebe[] = INCBIN_U16("graphics/battle_transitions/phoebe_bg.gbapal");
 static const u16 sMugshotPal_Glacia[] = INCBIN_U16("graphics/battle_transitions/glacia_bg.gbapal");
@@ -903,6 +909,7 @@ static const u16 sMugshotPal_May[] = INCBIN_U16("graphics/battle_transitions/may
 static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
 {
     [MUGSHOT_RED] = sMugshotPal_Drake,
+    [MUGSHOT_LEAF] = sMugshotPal_Phoebe,
     [MUGSHOT_SIDNEY] = sMugshotPal_Sidney,
     [MUGSHOT_PHOEBE] = sMugshotPal_Phoebe,
     [MUGSHOT_GLACIA] = sMugshotPal_Glacia,
@@ -2270,6 +2277,12 @@ static void VBlankCB_Wave(void)
 static void Task_Red(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_RED;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Leaf(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_LEAF;
     DoMugshotTransition(taskId);
 }
 

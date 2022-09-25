@@ -7,6 +7,7 @@
 #define MUGSHOT_DRAKE       3
 #define MUGSHOT_CHAMPION    4
 #define MUGSHOT_RED         5
-#define MUGSHOTS_COUNT      6
+#define MUGSHOT_LEAF 				6
+#define MUGSHOTS_COUNT      7
 
 #endif //GUARD_CONSTANTS_BATTLE_TRANSITION_H
