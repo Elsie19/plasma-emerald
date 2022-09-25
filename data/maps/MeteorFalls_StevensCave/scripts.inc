@@ -70,8 +70,7 @@ MeteorFalls_StevensCave_Text_LeafIntro:
 	.string "Oh hello! I'm LEAF. My passion is for\n"
 	.string "POKéMON, and my goal is to complete my\p"
 	.string "POKéDEX. May I battle you? I need, no.\n"
-	.string "I must collect more information.\l" 
-	.string "Prepare to lose! Muahahahaha!!$"
+	.string "I must collect more information.$" 
 
 MeteorFalls_StevensCave_Text_LeafDefeat:
 	.string "Huh, I lost.$"
