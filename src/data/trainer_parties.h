@@ -11667,35 +11667,35 @@ static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     .iv = 255,
     .lvl = 80,
     .species = SPECIES_MEWTWO,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_NEVER_MELT_ICE,
     .moves = {MOVE_ICE_BEAM, MOVE_RECOVER, MOVE_CALM_MIND, MOVE_THUNDERBOLT}
     },
     {
     .iv = 255,
     .lvl = 82,
     .species = SPECIES_SNORLAX,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_SHADOW_BALL, MOVE_CRUNCH, MOVE_REST, MOVE_SNORE}
     },
     {
     .iv = 255,
     .lvl = 84,
     .species = SPECIES_VENUSAUR,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_MIRACLE_SEED,
     .moves = {MOVE_FRENZY_PLANT, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_SLEEP_POWDER}
     },
     {
     .iv = 255,
     .lvl = 84,
     .species = SPECIES_CHARIZARD,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_BRIGHT_POWDER,
     .moves = {MOVE_BLAST_BURN, MOVE_FLAMETHROWER, MOVE_SLASH, MOVE_WING_ATTACK}
     },
     {
     .iv = 255,
     .lvl = 84,
     .species = SPECIES_BLASTOISE,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_MYSTIC_WATER,
     .moves = {MOVE_HYDRO_CANNON, MOVE_BLIZZARD, MOVE_SURF, MOVE_RAIN_DANCE}
     }
 };
