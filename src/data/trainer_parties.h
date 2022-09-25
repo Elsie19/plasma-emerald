@@ -12471,11 +12471,48 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Red[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Leaf[] = {
+static const struct TrainerMonItemCustomMoves sParty_Leaf[] = {
     {
-    .iv = 0,
-    .lvl = 5,
-    .species = SPECIES_BULBASAUR,
+    .iv = 255,
+    .lvl = 66,
+    .species = SPECIES_CLEFABLE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_TRI_ATTACK, MOVE_THUNDERBOLT}
+    },
+    {
+    .iv = 255,
+    .lvl = 66,
+    .species = SPECIES_GENGAR,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_CRUNCH, MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB, MOVE_WILL_O_WISP}
+    },
+    {
+    .iv = 255,
+    .lvl = 66,
+    .species = SPECIES_VICTREEBEL,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FRENZY_PLANT, MOVE_POISON_FANG, MOVE_FAINT_ATTACK, MOVE_LEECH_LIFE}
+    },
+    {
+    .iv = 255,
+    .lvl = 66,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FIRE_BLAST, MOVE_CRUNCH, MOVE_FAINT_ATTACK, MOVE_HYPER_BEAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 66,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_DIZZY_PUNCH, MOVE_TORMENT, MOVE_THUNDER_PUNCH, MOVE_BRICK_BREAK}
+    },
+    {
+    .iv = 255,
+    .lvl = 68,
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_MYSTIC_WATER,
+    .moves = {MOVE_HYDRO_CANNON, MOVE_METAL_CLAW, MOVE_ICE_BEAM, MOVE_FAKE_OUT}
     }
 };
 
