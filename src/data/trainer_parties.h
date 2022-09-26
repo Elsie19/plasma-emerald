@@ -12513,7 +12513,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blue[] = {
     .iv = 255,
     .lvl = 76,
     .species = SPECIES_PIDGEOT,
-    .heldItem = ITEM_ORAN_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_AERIAL_ACE, MOVE_FEATHER_DANCE, MOVE_SAND_ATTACK, MOVE_MIRROR_MOVE}
     },
     {
@@ -12527,21 +12527,21 @@ static const struct TrainerMonItemCustomMoves sParty_Blue[] = {
     .iv = 255,
     .lvl = 79,
     .species = SPECIES_RHYDON,
-    .heldItem = ITEM_ORAN_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_TAKE_DOWN, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB, MOVE_SCARY_FACE}
     },
     {
     .iv = 255,
     .lvl = 79,
     .species = SPECIES_EXEGGUTOR,
-    .heldItem = ITEM_ORAN_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_GIGA_DRAIN, MOVE_EGG_BOMB, MOVE_SLEEP_POWDER, MOVE_LIGHT_SCREEN}
     },
     {
     .iv = 255,
     .lvl = 81,
     .species = SPECIES_GYARADOS,
-    .heldItem = ITEM_ORAN_BERRY,
+    .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYDRO_PUMP, MOVE_DRAGON_RAGE, MOVE_CRUNCH, MOVE_THRASH}
     },
     {

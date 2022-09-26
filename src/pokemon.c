@@ -6355,7 +6355,7 @@ u16 GetBattleBGM(void)
         else
             trainerClass = gTrainers[gTrainerBattleOpponent_A].trainerClass;
 
-        if (gTrainerBattleOpponent_A == TRAINER_LEAF || gTrainerBattleOpponent_A == TRAINER_STEVEN)
+        if (gTrainerBattleOpponent_A == TRAINER_LEAF || gTrainerBattleOpponent_A == TRAINER_STEVEN || gTrainerBattleOpponent_A == TRAINER_BLUE)
             return MUS_RG_VS_CHAMPION;
 
         switch (trainerClass)
