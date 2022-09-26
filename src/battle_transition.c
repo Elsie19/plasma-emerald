@@ -913,9 +913,9 @@ static const u16 sMugshotPal_May[] = INCBIN_U16("graphics/battle_transitions/may
 
 static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
 {
-    [MUGSHOT_RED] = sMugshotPal_Drake,
+    [MUGSHOT_RED] = sMugshotPal_Champion,
     [MUGSHOT_LEAF] = sMugshotPal_Phoebe,
-    [MUGSHOT_BLUE] = sMugshotPal_Glacia,
+    [MUGSHOT_BLUE] = sMugshotPal_Drake,
     [MUGSHOT_SIDNEY] = sMugshotPal_Sidney,
     [MUGSHOT_PHOEBE] = sMugshotPal_Phoebe,
     [MUGSHOT_GLACIA] = sMugshotPal_Glacia,
