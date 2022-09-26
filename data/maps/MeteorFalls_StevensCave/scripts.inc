@@ -1,5 +1,6 @@
 .set LOCALID_STEVEN, 1
 .set LOCALID_LEAF, 2
+.set LOCALID_BLUE, 3
 
 MeteorFalls_StevensCave_MapScripts::
 	.byte 0
@@ -54,6 +55,31 @@ MeteorFalls_StevensCave_EventScript_LeafDefeated::
 	release
 	end
 
+MeteorFalls_StevensCave_EventScript_Blue::
+	lock
+	goto_if_set FLAG_DEFEATED_METEOR_FALLS_BLUE, MeteorFalls_StevensCave_Text_BlueDefeated
+	waitse
+	playse SE_PIN
+	applymovement LOCALID_BLUE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_BLUE, Common_Movement_Delay48
+	waitmovement 0
+	msgbox MeteorFalls_StevensCave_Text_BlueIntro, MSGBOX_DEFAULT
+	applymovement LOCALID_BLUE, Common_Movement_FacePlayer
+	waitmovement 0
+	trainerbattle_no_intro TRAINER_BLUE, MeteorFalls_StevensCave_Text_BlueDefeat
+	msgbox MeteorFalls_StevensCave_Text_BlueDefeated, MSGBOX_DEFAULT
+	setflag FLAG_DEFEATED_METEOR_FALLS_BLUE
+	release
+	end
+
+MeteorFalls_StevensCave_EventScript_BlueDefeated::
+	applymovement LOCALID_BLUE, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox MeteorFalls_StevensCave_Text_BlueDefeat, MSGBOX_DEFAULT
+	release
+	end
+
 MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst:
 	.string "… … … … … …\p"
 	.string "… … … … …?\p"
@@ -79,3 +105,17 @@ MeteorFalls_StevensCave_Text_LeafDefeated:
 	.string "Thanks so much for the battle! My\n"
 	.string "POKéDEX is closer to completion\p"
 	.string "thanks to you!$"
+
+MeteorFalls_StevensCave_Text_BlueIntro:
+	.string "Yo. The names BLUE. I'm the strongest\n"
+	.string "trainer around, or, well, I was. Until\l"
+	.string "that punk from JOHTO beat me. Still, I\l"
+	.string "will be the strongest trainer ever! IT'S\l"
+	.string "MY BURNING DESIRE!!$"
+
+MeteorFalls_StevensCave_Text_BlueDefeat:
+	.string "No!$"
+
+MeteorFalls_StevensCave_Text_BlueDefeated:
+	.string "Ugh, well, I guess some humility never\n"
+	.string "hurts. Thanks for the battle.$"
