@@ -1320,7 +1320,7 @@
 #define FLAG_DEFEATED_MOSSDEEP_GYM                                  0x4F6
 #define FLAG_DEFEATED_SOOTOPOLIS_GYM                                0x4F7
 #define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
-#define FLAG_DEFEATED_METEOR_FALLS_LEAF                             0x4F9
+#define FLAG_DEFEATED_FARAWAY_ISLAND_LEAF                           0x4F9
 #define FLAG_DEFEATED_METEOR_FALLS_BLUE                             0x4FA
 
 #define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB

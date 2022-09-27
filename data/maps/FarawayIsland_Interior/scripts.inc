@@ -1,4 +1,5 @@
 @ Note: LOCALID_FARAWAY_ISLAND_MEW is a local id for this map used elsewhere. It's defined in event_objects.h
+.set LOCALID_LEAF, 1
 
 FarawayIsland_Interior_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, FarawayIsland_Interior_OnResume
@@ -185,5 +186,53 @@ FarawayIsland_Interior_EventScript_HideMewWhenGrassCut::
 	releaseall
 	end
 
+FarawayIsland_EventScript_Leaf::
+	lock
+	goto_if_set FLAG_DEFEATED_FARAWAY_ISLAND_LEAF, FarawayIsland_LeafDefeated
+	waitse
+	playse SE_PIN
+	applymovement LOCALID_LEAF, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_LEAF, Common_Movement_Delay48
+	waitmovement 0
+	msgbox FarawayIsland_Text_LeafIntro, MSGBOX_DEFAULT
+	applymovement LOCALID_LEAF, Common_Movement_FacePlayer
+	waitmovement 0
+	trainerbattle_no_intro TRAINER_LEAF, FarawayIsland_Text_LeafDefeat
+	msgbox FarawayIsland_LeafDefeated, MSGBOX_DEFAULT
+	setflag FLAG_DEFEATED_FARAWAY_ISLAND_LEAF
+	release
+	end
+
+FarawayIsland_EventScript_LeafDefeated::
+	applymovement LOCALID_LEAF, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox FarawayIsland_Text_LeafDefeat, MSGBOX_DEFAULT
+	release
+	end
+
+FarawayIsland_LeafDefeated::
+	lock
+	waitse
+	applymovement LOCALID_LEAF, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox FarawayIsland_Text_LeafDefeated, MSGBOX_DEFAULT
+	release
+	end
+
 FarawayIsland_Interior_Text_TheFeelingOfBeingWatchedFaded:
 	.string "The feeling of being watched faded…$"
+
+FarawayIsland_Text_LeafIntro:
+	.string "Oh hello! I'm LEAF. My passion is for\n"
+	.string "POKéMON, and my goal is to complete my\p"
+	.string "POKéDEX. May I battle you? I need, no…\n"
+	.string "I must collect more information!$" 
+
+FarawayIsland_Text_LeafDefeat:
+	.string "Huh, I lost.$"
+
+FarawayIsland_Text_LeafDefeated:
+	.string "Thanks so much for the battle! My\n"
+	.string "POKéDEX is closer to completion\p"
+	.string "thanks to you!$"
