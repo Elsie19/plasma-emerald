@@ -205,6 +205,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2, MSGBOX_DEFAULT
 	giveitem ITEM_OLD_SEA_MAP
 	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
+	giveitem ITEM_MYSTIC_TICKET
+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
 	closemessage
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
@@ -870,9 +872,10 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "that is POKéMON.\p"
 	.string "Somewhere, there is a grassy patch\n"
 	.string "that's waiting for you!\p"
-	.string "And speaking of, I have this for you.\n"
-	.string "It's an OLD SEA MAP. One of my\p"
-	.string "colleagues in the field gave it to me.$"
+	.string "And speaking of, I have these for you.\n"
+	.string "It's an OLD SEA MAP, and a MYSTIC-\p"
+	.string "TICKET. One of my colleagues in the\n"
+	.string "field gave it to me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "MAY: I think I'll take a short break\n"
