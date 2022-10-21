@@ -12443,23 +12443,23 @@ static const struct TrainerMonItemCustomMoves sParty_Red[] = {
     {
     .iv = 255,
     .lvl = 84,
-    .species = SPECIES_VENUSAUR,
+    .species = SPECIES_DRAGONITE,
     .heldItem = ITEM_MIRACLE_SEED,
-    .moves = {MOVE_FRENZY_PLANT, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_SLEEP_POWDER}
+    .moves = {MOVE_DRAGON_CLAW, MOVE_THUNDER_WAVE, MOVE_ICE_BEAM, MOVE_ROAR}
     },
     {
     .iv = 255,
     .lvl = 84,
     .species = SPECIES_CHARIZARD,
-    .heldItem = ITEM_BRIGHT_POWDER,
+    .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_BLAST_BURN, MOVE_FLAMETHROWER, MOVE_SLASH, MOVE_WING_ATTACK}
     },
     {
     .iv = 255,
     .lvl = 84,
-    .species = SPECIES_BLASTOISE,
+    .species = SPECIES_LAPRAS,
     .heldItem = ITEM_MYSTIC_WATER,
-    .moves = {MOVE_HYDRO_CANNON, MOVE_BLIZZARD, MOVE_SURF, MOVE_RAIN_DANCE}
+    .moves = {MOVE_HYDRO_PUMP, MOVE_PERISH_SONG, MOVE_SAFEGUARD, MOVE_TOXIC}
     }
 };
 
@@ -12490,7 +12490,7 @@ static const struct TrainerMonItemCustomMoves sParty_Leaf[] = {
     .lvl = 66,
     .species = SPECIES_NINETALES,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_FIRE_BLAST, MOVE_CRUNCH, MOVE_FAINT_ATTACK, MOVE_HYPER_BEAM}
+    .moves = {MOVE_FIRE_BLAST, MOVE_SUNNY_DAY, MOVE_FAINT_ATTACK, MOVE_HYPER_BEAM}
     },
     {
     .iv = 255,
@@ -12502,9 +12502,9 @@ static const struct TrainerMonItemCustomMoves sParty_Leaf[] = {
     {
     .iv = 255,
     .lvl = 68,
-    .species = SPECIES_BLASTOISE,
-    .heldItem = ITEM_MYSTIC_WATER,
-    .moves = {MOVE_HYDRO_CANNON, MOVE_METAL_CLAW, MOVE_ICE_BEAM, MOVE_FAKE_OUT}
+    .species = SPECIES_VENUSAUR,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_SOLAR_BEAM, MOVE_RAZOR_LEAF, MOVE_EARTHQUAKE, MOVE_SLUDGE_BOMB}
     }
 };
 
@@ -12547,9 +12547,9 @@ static const struct TrainerMonItemCustomMoves sParty_Blue[] = {
     {
     .iv = 255,
     .lvl = 83,
-    .species = SPECIES_CHARIZARD,
-    .heldItem = ITEM_CHARCOAL,
-    .moves = {MOVE_FIRE_BLAST, MOVE_AERIAL_ACE, MOVE_SLASH, MOVE_FIRE_SPIN}
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_MYSTIC_WATER,
+    .moves = {MOVE_HYDRO_CANNON, MOVE_METAL_CLAW, MOVE_ICE_BEAM, MOVE_FAKE_OUT}
     }
 };
 
