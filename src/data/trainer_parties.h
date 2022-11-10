@@ -12568,3 +12568,48 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLinkPlaceholder[] = {
     .species = SPECIES_KYOGRE,
     }
 };
+
+static const struct TrainerMonItemCustomMoves sParty_GuardianHenry[] = {
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_NIDOKING,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_ZAPDOS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_TOXIC, MOVE_OVERHEAT, MOVE_HIDDEN_POWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_HOUNDOOM,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SOLAR_BEAM, MOVE_NIGHT_SHADE, MOVE_REVERSAL, MOVE_SUNNY_DAY}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_MEDICHAM,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_ICE_PUNCH, MOVE_SHADOW_PUNCH, MOVE_BULK_UP, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_WALREIN,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_CURSE, MOVE_EARTHQUAKE, MOVE_YAWN, MOVE_BLIZZARD}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_SCIZOR,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_FURY_CUTTER, MOVE_BRICK_BREAK, MOVE_PURSUIT}
+    }
+};

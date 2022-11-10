@@ -4777,3 +4777,15 @@ Route134_Text_HudsonPostBattle:
 	.string "Our boat drifted out to sea.\p"
 	.string "My buddy's a timid fellow, so I'm\n"
 	.string "worried about him.$"
+
+
+AlteringCave_Text_HenryIntro:
+	.string "Hello, I am HENRY. I'm a very strong\n"
+	.string "trainer, so watch out!$"
+
+AlteringCave_Text_HenryDefeated:
+	.string "Huh.$"
+
+AlteringCave_Text_HenryPostBattle:
+	.string "Thanks for the battle! You really have\n"
+	.string "proven yourself the strongest.$"

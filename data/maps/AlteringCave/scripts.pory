@@ -47,4 +47,9 @@ AlteringCave_EventScript_RanFromDeoxys::
 	setvar VAR_0x8004, SPECIES_DEOXYS
 	goto Common_EventScript_LegendaryFlewAway
 	end
+
+AlteringCave_EventScript_Henry::
+	trainerbattle_single GUARDIAN_HENRY, AlteringCave_Text_HenryIntro, AlteringCave_Text_HenryDefeated
+	msgbox AlteringCave_Text_HenryPostBattle, MSGBOX_AUTOCLOSE
+	end
 `
