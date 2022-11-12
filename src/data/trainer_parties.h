@@ -12574,14 +12574,14 @@ static const struct TrainerMonItemCustomMoves sParty_GuardianHenry[] = {
     .iv = 255,
     .lvl = 95,
     .species = SPECIES_NIDOKING,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
     },
     {
     .iv = 255,
     .lvl = 95,
     .species = SPECIES_ZAPDOS,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_BRIGHT_POWDER,
     .moves = {MOVE_THUNDER_WAVE, MOVE_TOXIC, MOVE_OVERHEAT, MOVE_HIDDEN_POWER}
     },
     {
@@ -12595,7 +12595,7 @@ static const struct TrainerMonItemCustomMoves sParty_GuardianHenry[] = {
     .iv = 255,
     .lvl = 95,
     .species = SPECIES_MEDICHAM,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_SCOPE_LENS,
     .moves = {MOVE_ICE_PUNCH, MOVE_SHADOW_PUNCH, MOVE_BULK_UP, MOVE_PSYCHIC}
     },
     {
@@ -12609,7 +12609,7 @@ static const struct TrainerMonItemCustomMoves sParty_GuardianHenry[] = {
     .iv = 255,
     .lvl = 95,
     .species = SPECIES_SCIZOR,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_QUICK_CLAW,
     .moves = {MOVE_SWORDS_DANCE, MOVE_FURY_CUTTER, MOVE_BRICK_BREAK, MOVE_PURSUIT}
     }
 };
