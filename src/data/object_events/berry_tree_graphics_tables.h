@@ -559,7 +559,7 @@ const u16 *const gBerryTreeObjectEventGraphicsIdTablePointers[] = {
     [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] = gBerryTreeObjectEventGraphicsIdTable,
     [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX] = gBerryTreeObjectEventGraphicsIdTable,
     // 3 unused berries.
-    [ITEM_0B0 - FIRST_BERRY_INDEX] = gBerryTreeObjectEventGraphicsIdTable,
-    [ITEM_0B1 - FIRST_BERRY_INDEX] = gBerryTreeObjectEventGraphicsIdTable,
-    [ITEM_0B2 - FIRST_BERRY_INDEX] = gBerryTreeObjectEventGraphicsIdTable,
+    //[ITEM_0B0 - FIRST_BERRY_INDEX] = gBerryTreeObjectEventGraphicsIdTable,
+    //[ITEM_0B1 - FIRST_BERRY_INDEX] = gBerryTreeObjectEventGraphicsIdTable,
+    //[ITEM_0B2 - FIRST_BERRY_INDEX] = gBerryTreeObjectEventGraphicsIdTable,
 };
