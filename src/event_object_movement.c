@@ -2852,6 +2852,38 @@ u8 TryGetTrainerEncounterDirection(struct ObjectEvent *objectEvent, u8 movementT
     return gGetVectorDirectionFuncs[movementType](dx, dy, absdx, absdy);
 }
 
+movement_type_def(MovementType_FollowingPokemon, gMovementTypeFuncs_FollowingPokemon)
+
+bool8 MovementType_FollowingPokemon_Step0(struct ObjectEvent *objectEvent, struct Sprite *sprite)
+{
+    ClearObjectEventMovement(objectEvent, sprite);
+    sprite->data[1] = 1;
+    return TRUE;
+}
+
+bool8 MovementType_FollowingPokemon_Step1(struct ObjectEvent *objectEvent, struct Sprite *sprite)
+{
+    ObjectEventSetSingleMovement(objectEvent, sprite, MOVEMENT_ACTION_FOLLOWING_POKEMON);
+    sprite->data[1] = 2;
+    return TRUE;
+}
+
+bool8 MovementType_FollowingPokemon_Step2(struct ObjectEvent *objectEvent, struct Sprite *sprite)
+{
+    if (ObjectEventExecSingleMovementAction(objectEvent, sprite))
+    {
+        objectEvent->singleMovementActive = FALSE;
+        sprite->data[1] = 3;
+    }
+    return FALSE;
+}
+
+bool8 MovementType_FollowingPokemon_Step3(struct ObjectEvent *objectEvent, struct Sprite *sprite)
+{
+    sprite->data[1] = 1;
+    return TRUE;
+}
+
 movement_type_def(MovementType_LookAround, gMovementTypeFuncs_LookAround)
 
 bool8 MovementType_LookAround_Step0(struct ObjectEvent *objectEvent, struct Sprite *sprite)
