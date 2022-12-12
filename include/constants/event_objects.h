@@ -627,18 +627,39 @@
 #define OBJ_EVENT_GFX_JIRACHI                    647
 #define OBJ_EVENT_GFX_DEOXYS_NORMAL              648
 #define OBJ_EVENT_GFX_CHIMECHO                   649
+// Other forms
+#define OBJ_EVENT_GFX_DEOXYS_ATTACK              650
+#define OBJ_EVENT_GFX_DEOXYS_DEFENSE             651
+#define OBJ_EVENT_GFX_DEOXYS_SPEED               652
+#define OBJ_EVENT_GFX_UNOWN_B                    653
+#define OBJ_EVENT_GFX_UNOWN_C                    654
+#define OBJ_EVENT_GFX_UNOWN_D                    655
+#define OBJ_EVENT_GFX_UNOWN_E                    656
+#define OBJ_EVENT_GFX_UNOWN_F                    657
+#define OBJ_EVENT_GFX_UNOWN_G                    658
+#define OBJ_EVENT_GFX_UNOWN_H                    659
+#define OBJ_EVENT_GFX_UNOWN_I                    660
+#define OBJ_EVENT_GFX_UNOWN_J                    661
+#define OBJ_EVENT_GFX_UNOWN_K                    662
+#define OBJ_EVENT_GFX_UNOWN_L                    663
+#define OBJ_EVENT_GFX_UNOWN_M                    664
+#define OBJ_EVENT_GFX_UNOWN_N                    665
+#define OBJ_EVENT_GFX_UNOWN_O                    666
+#define OBJ_EVENT_GFX_UNOWN_P                    667
+#define OBJ_EVENT_GFX_UNOWN_Q                    668
+#define OBJ_EVENT_GFX_UNOWN_R                    669
+#define OBJ_EVENT_GFX_UNOWN_S                    670
+#define OBJ_EVENT_GFX_UNOWN_T                    671
+#define OBJ_EVENT_GFX_UNOWN_U                    672
+#define OBJ_EVENT_GFX_UNOWN_V                    673
+#define OBJ_EVENT_GFX_UNOWN_W                    674
+#define OBJ_EVENT_GFX_UNOWN_X                    675
+#define OBJ_EVENT_GFX_UNOWN_Y                    676
+#define OBJ_EVENT_GFX_UNOWN_Z                    677
+#define OBJ_EVENT_GFX_UNOWN_EXCLAMATION          678
+#define OBJ_EVENT_GFX_UNOWN_QUESTION             679
 
-// NOTE: By default, the max value for NUM_OBJ_EVENT_GFX is 239.
-//
-// Object event graphics ids are 1 byte in size (max value of 255), and the dynamic
-// graphics ids that start after NUM_OBJ_EVENT_GFX reach this limit. No graphics id
-// uses the value 239 itself, so removing the "+ 1" in OBJ_EVENT_GFX_VARS would
-// allow increasing NUM_OBJ_EVENT_GFX to 240. There are also a handful of unused
-// object graphics that can be removed. If more graphics are needed, anything that
-// stores graphics ids will need to be increased in size. See wiki entry below:
-// https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
-#define NUM_OBJ_EVENT_GFX                        650
-
+#define NUM_OBJ_EVENT_GFX                        680
 
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.
