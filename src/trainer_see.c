@@ -709,7 +709,6 @@ u8 FldEff_ExclamationMarkIcon(void)
 
     LoadObjectEventPalette(0x1100); //LoadObjectEventPalette(OBJ_EVENT_PAL_TAG_BRENDAN)
     UpdatePaletteGammaType(IndexOfSpritePaletteTag(0x1100), GAMMA_ALT);
-    UpdateSpritePaletteWithWeather(IndexOfSpritePaletteTag(0x1100));
     spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x52);
 
     if (spriteId != MAX_SPRITES)
@@ -724,8 +723,6 @@ u8 FldEff_QuestionMarkIcon(void)
 
     LoadObjectEventPalette(0x1100); //LoadObjectEventPalette(OBJ_EVENT_PAL_TAG_BRENDAN)
     UpdatePaletteGammaType(IndexOfSpritePaletteTag(0x1100), GAMMA_ALT);
-    UpdateSpritePaletteWithWeather(IndexOfSpritePaletteTag(0x1100));
-
     spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x52);
 
     if (spriteId != MAX_SPRITES)
@@ -740,7 +737,6 @@ u8 FldEff_HeartIcon(void)
 
     LoadSpritePalette(&gObjectEventPal_Npc1);
     UpdatePaletteGammaType(IndexOfSpritePaletteTag(0x1004), GAMMA_ALT);
-    UpdateSpritePaletteWithWeather(IndexOfSpritePaletteTag(0x1004));
     spriteId = CreateSpriteAtEnd(&sSpriteTemplate_HeartIcon, 0, 0, 0x52);
 
     if (spriteId != MAX_SPRITES)
