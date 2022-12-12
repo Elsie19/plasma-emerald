@@ -708,7 +708,6 @@ u8 FldEff_ExclamationMarkIcon(void)
     u8 spriteId, paletteNum;
 
     LoadObjectEventPalette(0x1100); //LoadObjectEventPalette(OBJ_EVENT_PAL_TAG_BRENDAN)
-    UpdatePaletteGammaType(IndexOfSpritePaletteTag(0x1100), GAMMA_ALT);
     spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x52);
 
     if (spriteId != MAX_SPRITES)
@@ -722,7 +721,6 @@ u8 FldEff_QuestionMarkIcon(void)
     u8 spriteId;
 
     LoadObjectEventPalette(0x1100); //LoadObjectEventPalette(OBJ_EVENT_PAL_TAG_BRENDAN)
-    UpdatePaletteGammaType(IndexOfSpritePaletteTag(0x1100), GAMMA_ALT);
     spriteId = CreateSpriteAtEnd(&sSpriteTemplate_ExclamationQuestionMark, 0, 0, 0x52);
 
     if (spriteId != MAX_SPRITES)
@@ -736,7 +734,6 @@ u8 FldEff_HeartIcon(void)
     u8 spriteId;
 
     LoadSpritePalette(&gObjectEventPal_Npc1);
-    UpdatePaletteGammaType(IndexOfSpritePaletteTag(0x1004), GAMMA_ALT);
     spriteId = CreateSpriteAtEnd(&sSpriteTemplate_HeartIcon, 0, 0, 0x52);
 
     if (spriteId != MAX_SPRITES)
