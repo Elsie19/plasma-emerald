@@ -10024,6 +10024,7 @@ u8 MovementAction_FollowingPokemon_Shrink_Step1(struct ObjectEvent *objectEvent,
 
     if (sprite->data[7] >= 11)
     {
+        FreeSpriteOamMatrix(sprite);
         gObjectEvents[gPlayerAvatar.objectEventId].fixedPriority = FALSE;
         objectEvent->invisible = TRUE;
         sprite->data[2]++;
@@ -10150,8 +10151,8 @@ u8 MovementAction_FollowingPokemon_Grow_Step1(struct ObjectEvent *objectEvent, s
             sprite->y2 = 0;
         }
 
+        FreeSpriteOamMatrix(sprite);
         sprite->data[2]++;
-        sprite->oam.affineMode = 0;
     }
 
     return FALSE;
