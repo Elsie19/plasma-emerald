@@ -71,6 +71,7 @@
 #include "constants/weather.h"
 #include "constants/event_object_movement.h"
 #include "constants/event_objects.h"
+#include "dns.h"
 
 struct CableClubPlayer
 {
@@ -1857,6 +1858,7 @@ void CB1_Overworld(void)
 
 static void OverworldBasic(void)
 {
+    DnsApplyFilters();
     ScriptContext_RunScript();
     RunTasks();
     AnimateSprites();
