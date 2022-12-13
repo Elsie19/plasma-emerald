@@ -3254,9 +3254,9 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     {
     .iv = 250,
     .lvl = 48,
-    .species = SPECIES_DUSCLOPS,
+    .species = SPECIES_MISDREAVUS,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_SHADOW_PUNCH, MOVE_CONFUSE_RAY, MOVE_CURSE, MOVE_PROTECT}
+    .moves = {MOVE_PAIN_SPLIT, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_CONFUSE_RAY}
     },
     {
     .iv = 250,
