@@ -1990,6 +1990,11 @@
 	callnative ShowFollower
 	.endm
 
+  .macro followerintopokeball
+  setvar VAR_UNUSED_0x8014, 0
+  callnative FollowerIntoPokeball
+  .endm
+
 	@ Creates an "event legal" Pokémon for an encounter
 	.macro seteventmon species:req, level:req, item=ITEM_NONE
 	setvar VAR_0x8004, \species

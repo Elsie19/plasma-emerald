@@ -629,6 +629,9 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     {
         if (collision == COLLISION_LEDGE_JUMP)
         {
+            if (gSaveBlock2Ptr->follower.inProgress && gObjectEvents[gSaveBlock2Ptr->follower.objId].invisible == TRUE)
+                gSaveBlock2Ptr->follower.delayedState = MOVEMENT_ACTION_JUMP_2_DOWN;
+            FollowerPokeballSparkle();
             PlayerJumpLedge(direction);
             return;
         }
@@ -656,12 +659,14 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_UNDERWATER) && (heldKeys & B_BUTTON) && FlagGet(FLAG_SYS_B_DASH)
      && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0)
     {
+        FollowerPokeballSparkle();
         PlayerRun(direction);
         gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
         return;
     }
     else
     {
+        FollowerPokeballSparkle();
         PlayerWalkNormal(direction);
     }
 }
@@ -1685,12 +1690,6 @@ static void Task_WaitStopSurfing(u8 taskId)
         DestroySprite(&gSprites[playerObjEvent->fieldEffectSpriteId]);
         playerObjEvent->triggerGroundEffectsOnMove = TRUE;
         DestroyTask(taskId);
-
-        if (gSaveBlock2Ptr->follower.inProgress)
-        {
-            ObjectEventClearHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId]);
-            ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], playerObjEvent->facingDirection + 7);
-        }
     }
 }
 

@@ -1361,44 +1361,10 @@ static void Task_UseFly(u8 taskId)
             gFieldEffectArguments[0] = 0;
 
         FieldEffectStart(FLDEFF_USE_FLY);
-
-        if (gSaveBlock2Ptr->follower.inProgress)
-        {
-            ObjectEventClearHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId]);
-
-            if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.x == gObjectEvents[gSaveBlock2Ptr->follower.objId].currentCoords.x)
-            {
-                if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.y > gObjectEvents[gSaveBlock2Ptr->follower.objId].currentCoords.y)
-                {
-                    // Move South
-                    ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], 8);
-                }
-                else
-                {
-                    // Move North
-                    ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], 9);
-                }
-            }
-            else
-            {
-                if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.x > gObjectEvents[gSaveBlock2Ptr->follower.objId].currentCoords.x)
-                {
-                    // Move East
-                    ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], 11);
-                }
-                else
-                {
-                    // Move West
-                    ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], 10);
-                }
-            }
-        }
+        FollowerIntoPokeball();
 
         task->data[0]++;
     }
-
-    if (gSaveBlock2Ptr->follower.inProgress && ObjectEventClearHeldMovementIfFinished(&gObjectEvents[gSaveBlock2Ptr->follower.objId]))
-        gObjectEvents[gSaveBlock2Ptr->follower.objId].invisible = TRUE;
 
     if (!FieldEffectActiveListContains(FLDEFF_USE_FLY))
     {
@@ -3086,37 +3052,7 @@ static void SurfFieldEffect_FieldMovePose(struct Task *task)
         ObjectEventSetHeldMovement(objectEvent, MOVEMENT_ACTION_START_ANIM_IN_DIRECTION);
         task->tState++;
 
-        if(gSaveBlock2Ptr->follower.inProgress)
-        {
-            ObjectEventClearHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId]);
-
-            if(objectEvent->currentCoords.x == gObjectEvents[gSaveBlock2Ptr->follower.objId].currentCoords.x)
-            {
-                if(objectEvent->currentCoords.y > gObjectEvents[gSaveBlock2Ptr->follower.objId].currentCoords.y)
-                {
-                    // Move South
-                    ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], 8);
-                }
-                else
-                {
-                    // Move North
-                    ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], 9);
-                }
-            }
-            else
-            {
-                if(objectEvent->currentCoords.x > gObjectEvents[gSaveBlock2Ptr->follower.objId].currentCoords.x)
-                {
-                    // Move East
-                    ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], 11);
-                }
-                else
-                {
-                    // Move West
-                    ObjectEventSetHeldMovement(&gObjectEvents[gSaveBlock2Ptr->follower.objId], 10);
-                }
-            }
-        }
+        FollowerIntoPokeball();
     }
 }
 
@@ -3129,9 +3065,6 @@ static void SurfFieldEffect_ShowMon(struct Task *task)
         gFieldEffectArguments[0] = task->tMonId | SHOW_MON_CRY_NO_DUCKING;
         FieldEffectStart(FLDEFF_FIELD_MOVE_SHOW_MON_INIT);
         task->tState++;
-
-        if (gSaveBlock2Ptr->follower.inProgress)
-            gObjectEvents[gSaveBlock2Ptr->follower.objId].invisible = TRUE;
     }
 }
 

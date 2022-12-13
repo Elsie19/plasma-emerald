@@ -421,6 +421,7 @@ static void Task_ExitNonDoor(u8 taskId)
         {
             UnfreezeObjectEvents();
             UnlockPlayerFieldControls();
+            gSaveBlock2Ptr->follower.comeOutDoorStairs = 2;
             DestroyTask(taskId);
         }
         break;
