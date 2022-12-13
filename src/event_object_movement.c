@@ -8714,6 +8714,9 @@ static void DoFlaggedGroundEffects(struct ObjectEvent *objEvent, struct Sprite *
     if (ObjectEventIsFarawayIslandMew(objEvent) == TRUE && !ShouldMewShakeGrass(objEvent))
         return;
 
+    if (gSaveBlock2Ptr->follower.inProgress && objEvent == &gObjectEvents[gSaveBlock2Ptr->follower.objId] && objEvent->invisible == TRUE)
+        return;
+
     for (i = 0; i < ARRAY_COUNT(sGroundEffectFuncs); i++, flags >>= 1)
         if (flags & 1)
             sGroundEffectFuncs[i](objEvent, sprite);
@@ -10026,6 +10029,7 @@ u8 MovementAction_FollowingPokemon_Shrink_Step1(struct ObjectEvent *objectEvent,
     {
         FreeSpriteOamMatrix(sprite);
         gObjectEvents[gPlayerAvatar.objectEventId].fixedPriority = FALSE;
+        gPlayerAvatar.preventStep = FALSE;
         objectEvent->invisible = TRUE;
         sprite->data[2]++;
     }
@@ -10159,7 +10163,7 @@ u8 MovementAction_FollowingPokemon_Grow_Step1(struct ObjectEvent *objectEvent, s
             objectEvent->inShallowFlowingWater = TRUE;
             StartFieldEffectForObjectEvent(FLDEFF_FEET_IN_FLOWING_WATER, objectEvent);
         }
-
+        gPlayerAvatar.preventStep = FALSE;
         sprite->data[2]++;
     }
 
