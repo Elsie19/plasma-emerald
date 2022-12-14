@@ -5317,7 +5317,7 @@ bool8 ObjectEventSetHeldMovement(struct ObjectEvent *objectEvent, u8 movementAct
     objectEvent->heldMovementActive = TRUE;
     objectEvent->heldMovementFinished = FALSE;
     gSprites[objectEvent->spriteId].sActionFuncId = 0;
-    FollowMe(objectEvent, movementActionId, FALSE);
+    FollowMe(objectEvent, movementActionId, TRUE);
     return FALSE;
 }
 
