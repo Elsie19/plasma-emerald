@@ -212,6 +212,10 @@ LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex::
 	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
 	giveitem ITEM_MYSTIC_TICKET
 	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
+	giveitem ITEM_AURORA_TICKET
+	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
+	giveitem ITEM_EON_TICKET
 	closemessage
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
@@ -878,9 +882,7 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "Somewhere, there is a grassy patch\n"
 	.string "that's waiting for you!\p"
 	.string "And speaking of, I have these for you.\n"
-	.string "It's an OLD SEA MAP, and a MYSTIC-\p"
-	.string "TICKET. One of my colleagues in the\n"
-	.string "field gave it to me.$"
+	.string "I have a bunch of goodies for you to have!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "MAY: I think I'll take a short break\n"
