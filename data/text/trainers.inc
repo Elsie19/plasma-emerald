@@ -4780,16 +4780,16 @@ Route134_Text_HudsonPostBattle:
 
 
 AlteringCave_Text_HenryIntro:
-	.string "Hey! I've been waiting for you. My name\n"
-	.string "is {PLAYER}. Yup, you guessed right,\l"
-	.string "we are two sides of the same coin. I\l"
-	.string "come from a world you could not\l"
-	.string "imagine, with powers you only dream of.\l"
-	.string "I want to show you what you are\l"
-	.string "capable of, if I may, before I go.$"
+	.string "Hey {PLAYER}! Nice to finally meet you.\p"
+	.string "My name is also {PLAYER}, and yes\n"
+	.string "{PLAYER}, and yes, we are the\p"
+	.string "same person, maybe with minor\n"
+	.string "differences, but I assure you\p"
+	.string "we are two sides of the same coin.\n"
+	.string "Enough chitchat, let's battle!$"
 
 AlteringCave_Text_HenryDefeated:
-	.string "Huh.$"
+	.string "Huh, you are pretty good.$"
 
 AlteringCave_Text_HenryPostBattle:
 	.string "Thanks for the battle! You really have\n"
