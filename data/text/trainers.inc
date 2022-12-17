@@ -4780,8 +4780,13 @@ Route134_Text_HudsonPostBattle:
 
 
 AlteringCave_Text_HenryIntro:
-	.string "Hello, I am HENRY. I'm a very strong\n"
-	.string "trainer, so watch out!$"
+	.string "Hey! I've been waiting for you. My name\n"
+	.string "is {PLAYER}. Yup, you guessed right,\l"
+	.string "we are two sides of the same coin. I\l"
+	.string "come from a world you could not\l"
+	.string "imagine, with powers you only dream of.\l"
+	.string "I want to show you what you are\l"
+	.string "capable of, if I may, before I go.$"
 
 AlteringCave_Text_HenryDefeated:
 	.string "Huh.$"

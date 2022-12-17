@@ -9,6 +9,7 @@
 #define MUGSHOT_RED         5
 #define MUGSHOT_LEAF 				6
 #define MUGSHOT_BLUE 				7
-#define MUGSHOTS_COUNT      8
+#define MUGSHOT_HENRY       8
+#define MUGSHOTS_COUNT      9
 
 #endif //GUARD_CONSTANTS_BATTLE_TRANSITION_H

@@ -12573,43 +12573,43 @@ static const struct TrainerMonItemCustomMoves sParty_GuardianHenry[] = {
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_NIDOKING,
-    .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    .species = SPECIES_SALAMENCE,
+    .heldItem = ITEM_FOCUS_BAND,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_DRAGON_CLAW, MOVE_BRICK_BREAK}
     },
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_ZAPDOS,
+    .species = SPECIES_CROBAT,
     .heldItem = ITEM_BRIGHT_POWDER,
-    .moves = {MOVE_THUNDER_WAVE, MOVE_TOXIC, MOVE_OVERHEAT, MOVE_HIDDEN_POWER}
+    .moves = {MOVE_GIGA_DRAIN, MOVE_HEAT_WAVE, MOVE_AIR_CUTTER, MOVE_CONFUSE_RAY}
     },
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_HOUNDOOM,
-    .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_SOLAR_BEAM, MOVE_NIGHT_SHADE, MOVE_REVERSAL, MOVE_SUNNY_DAY}
-    },
-    {
-    .iv = 255,
-    .lvl = 95,
-    .species = SPECIES_MEDICHAM,
+    .species = SPECIES_GARDEVOIR,
     .heldItem = ITEM_SCOPE_LENS,
-    .moves = {MOVE_ICE_PUNCH, MOVE_SHADOW_PUNCH, MOVE_BULK_UP, MOVE_PSYCHIC}
+    .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_DISABLE, MOVE_MEAN_LOOK}
     },
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_WALREIN,
-    .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_CURSE, MOVE_EARTHQUAKE, MOVE_YAWN, MOVE_BLIZZARD}
+    .species = SPECIES_GROUDON,
+    .heldItem = ITEM_CHARCOAL,
+    .moves = {MOVE_EARTHQUAKE, MOVE_FIRE_BLAST, MOVE_SOLAR_BEAM, MOVE_SWORDS_DANCE}
     },
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_SCIZOR,
-    .heldItem = ITEM_QUICK_CLAW,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_FURY_CUTTER, MOVE_BRICK_BREAK, MOVE_PURSUIT}
+    .species = SPECIES_KYOGRE,
+    .heldItem = ITEM_MYSTIC_WATER,
+    .moves = {MOVE_WATER_SPOUT, MOVE_THUNDER, MOVE_ICE_BEAM, MOVE_SURF}
+    },
+    {
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_RAYQUAZA,
+    .heldItem = ITEM_MACHO_BRACE,
+    .moves = {MOVE_EXTREME_SPEED, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_FLAMETHROWER}
     }
 };
