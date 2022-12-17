@@ -4786,6 +4786,9 @@ AlteringCave_Text_HenryIntro:
 	.string "same person, maybe with minor\n"
 	.string "differences, but I assure you\p"
 	.string "we are two sides of the same coin.\n"
+	.string "I come from a world with power you\p"
+	.string "could only dream of, but I want to\n"
+	.string "battle you, see what you're made of.\p"
 	.string "Enough chitchat, let's battle!$"
 
 AlteringCave_Text_HenryDefeated:
