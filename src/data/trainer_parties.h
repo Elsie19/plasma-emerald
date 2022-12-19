@@ -12614,3 +12614,48 @@ static const struct TrainerMonItemCustomMoves sParty_GuardianHenry[] = {
     .moves = {MOVE_EXTREME_SPEED, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_FLAMETHROWER}
     }
 };
+
+static const struct TrainerMonItemCustomMoves sParty_Wizard[] = {
+    {
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_WIGGLYTUFF,
+    .heldItem = ITEM_BRIGHT_POWDER,
+    .moves = {MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_MAGNEMITE,
+    .heldItem = ITEM_MACHO_BRACE,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_HYPER_VOICE, MOVE_LIGHT_SCREEN, MOVE_BODY_SLAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_ALAKAZAM,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_HIDDEN_POWER, MOVE_THUNDER_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_MIRACLE_SEED,
+    .moves = {MOVE_CALM_MIND, MOVE_FIRE_BLAST, MOVE_SOLAR_BEAM, MOVE_HYPNOSIS}
+    },
+    {
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_EXEGGUTOR,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_HIDDEN_POWER, MOVE_PSYCH_UP, MOVE_SYNTHESIS, MOVE_SOLAR_BEAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_HITMONCHAN,
+    .heldItem = ITEM_KINGS_ROCK,
+    .moves = {MOVE_FOCUS_PUNCH, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH, MOVE_FIRE_PUNCH}
+    }
+};

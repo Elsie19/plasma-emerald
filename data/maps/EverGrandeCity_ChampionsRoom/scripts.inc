@@ -178,8 +178,8 @@ EverGrandeCity_ChampionsRoom_Movement_RivalApproachPlayer:
 	walk_up
 	walk_up
 	walk_up
-	walk_up
 	walk_left
+	walk_up
 	walk_up
 	walk_in_place_faster_right
 	step_end
@@ -197,7 +197,6 @@ EverGrandeCity_ChampionsRoom_Movement_RivalLookBackAndForth:
 
 EverGrandeCity_ChampionsRoom_Movement_RivalFollows:
 	walk_right
-	walk_up
 	step_end
 
 EverGrandeCity_ChampionsRoom_Movement_WallaceExitStart:
@@ -217,8 +216,8 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
 	walk_up
 	walk_up
 	walk_up
-	walk_up
 	walk_right
+	walk_up
 	walk_up
 	walk_in_place_faster_left
 	step_end
@@ -242,10 +241,9 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "are put to the test against what\l"
 	.string "others like you have achieved.\p"
 	.string "Now!\p"
-	.string "Who can show the might of\n"
-	.string "their POKéMON in HOENN?\p"
-	.string "BRING IT ON! SHOW ME WHAT\n"
-	.string "YOUR MADE OF!!$"
+	.string "Who can show the might of their\n"
+	.string "POKéMON in HOENN?\p"
+	.string "Show me right here and now!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "I, the CHAMPION, fall in defeat…\p"
