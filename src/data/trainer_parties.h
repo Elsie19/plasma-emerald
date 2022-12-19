@@ -12626,7 +12626,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wizard[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_MAGNETON,
     .heldItem = ITEM_MACHO_BRACE,
     .moves = {MOVE_THUNDER_WAVE, MOVE_HYPER_VOICE, MOVE_LIGHT_SCREEN, MOVE_BODY_SLAM}
     },
