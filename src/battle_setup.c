@@ -848,6 +848,62 @@ static u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == GUARDIAN_HENRY)
         return B_TRANSITION_HENRY;
 
+    if (gTrainerBattleOpponent_A == TRAINER_ROXANNE_1
+        || gTrainerBattleOpponent_A == TRAINER_ROXANNE_2
+        || gTrainerBattleOpponent_A == TRAINER_ROXANNE_3
+        || gTrainerBattleOpponent_A == TRAINER_ROXANNE_4
+        || gTrainerBattleOpponent_A == TRAINER_ROXANNE_5)
+        return B_TRANSITION_ROXANNE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_BRAWLY_1
+        || gTrainerBattleOpponent_A == TRAINER_BRAWLY_2
+        || gTrainerBattleOpponent_A == TRAINER_BRAWLY_3
+        || gTrainerBattleOpponent_A == TRAINER_BRAWLY_4
+        || gTrainerBattleOpponent_A == TRAINER_BRAWLY_5)
+        return B_TRANSITION_BRAWLY;
+
+    if (gTrainerBattleOpponent_A == TRAINER_WATTSON_1
+        || gTrainerBattleOpponent_A == TRAINER_WATTSON_2
+        || gTrainerBattleOpponent_A == TRAINER_WATTSON_3
+        || gTrainerBattleOpponent_A == TRAINER_WATTSON_4
+        || gTrainerBattleOpponent_A == TRAINER_WATTSON_5)
+        return B_TRANSITION_WATTSON;
+
+    if (gTrainerBattleOpponent_A == TRAINER_FLANNERY_1
+        || gTrainerBattleOpponent_A == TRAINER_FLANNERY_2
+        || gTrainerBattleOpponent_A == TRAINER_FLANNERY_3
+        || gTrainerBattleOpponent_A == TRAINER_FLANNERY_4
+        || gTrainerBattleOpponent_A == TRAINER_FLANNERY_5)
+        return B_TRANSITION_FLANNERY;
+
+    if (gTrainerBattleOpponent_A == TRAINER_NORMAN_1
+        || gTrainerBattleOpponent_A == TRAINER_NORMAN_2
+        || gTrainerBattleOpponent_A == TRAINER_NORMAN_3
+        || gTrainerBattleOpponent_A == TRAINER_NORMAN_4
+        || gTrainerBattleOpponent_A == TRAINER_NORMAN_5)
+        return B_TRANSITION_NORMAN;
+
+    if (gTrainerBattleOpponent_A == TRAINER_WINONA_1
+        || gTrainerBattleOpponent_A == TRAINER_WINONA_2
+        || gTrainerBattleOpponent_A == TRAINER_WINONA_3
+        || gTrainerBattleOpponent_A == TRAINER_WINONA_4
+        || gTrainerBattleOpponent_A == TRAINER_WINONA_5)
+        return B_TRANSITION_WINONA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TATE_AND_LIZA_1
+        || gTrainerBattleOpponent_A == TRAINER_TATE_AND_LIZA_2
+        || gTrainerBattleOpponent_A == TRAINER_TATE_AND_LIZA_3
+        || gTrainerBattleOpponent_A == TRAINER_TATE_AND_LIZA_4
+        || gTrainerBattleOpponent_A == TRAINER_TATE_AND_LIZA_5)
+        return B_TRANSITION_TATE_AND_LIZA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_JUAN_1
+        || gTrainerBattleOpponent_A == TRAINER_JUAN_2
+        || gTrainerBattleOpponent_A == TRAINER_JUAN_3
+        || gTrainerBattleOpponent_A == TRAINER_JUAN_4
+        || gTrainerBattleOpponent_A == TRAINER_JUAN_5)
+        return B_TRANSITION_WALLACE;
+
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_TEAM_MAGMA
         || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_MAGMA_LEADER
         || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_MAGMA_ADMIN)
