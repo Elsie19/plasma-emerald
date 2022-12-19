@@ -8743,11 +8743,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ashley[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_WallyMauville[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_WallyMauville[] = {
     {
     .iv = 30,
     .lvl = 16,
     .species = SPECIES_RALTS,
+    .moves = {MOVE_TELEPORT, MOVE_MAGICAL_LEAF, MOVE_LIGHT_SCREEN, MOVE_CONFUSION}
     }
 };
 
